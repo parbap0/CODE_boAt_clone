@@ -5,22 +5,30 @@
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>boAt</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <!--[if lt IE 7]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
     <![endif]-->
     <header>
-      <div class="notification">Catch daily lightning deals⚡️Your favourites starting @ ₹299. Shop Now!</div>
+      <div class="notification">
+        Catch daily lightning deals⚡️Your favourites starting @ ₹299. Shop Now!
+      </div>
       <div>
         <nav>
-          <img class="logo" src="media/Boat-Logo.png" alt="">
+          <div class="logo-container">
+            <img class="logo" src="media/Boat-Logo.png" alt="" />
+          </div>
+
           <ul>
             <li>Shop</li>
             <li>Daily Deals</li>
@@ -28,15 +36,29 @@
             <li>More</li>
           </ul>
           <ul>
-            <li><input type="search" placeholder="search..."></li>
-            <li><img src="media/account.png" alt=""></li>
-            <li><img src="media/gift.png" alt=""></li>
-            <li><img src="media/cart.png" alt=""></li>
-
+            <li><input type="search" placeholder="search..." /></li>
+            <li><img src="media/account.png" alt="" /></li>
+            <li><img src="media/gift.png" alt="" /></li>
+            <li><img src="media/cart.png" alt="" /></li>
           </ul>
         </nav>
       </div>
     </header>
-    <script src="" async defer></script>
+    <div class="slider-container">
+      <div class="slider">
+        <img class="slider-image" src="media/slider_1.png" alt="" />
+        <button
+          class="slider-button slider-button-prev"
+          type="submit"
+          alt="previous"
+        ></button>
+        <button
+          class="slider-button slider-button-next"
+          type="submit"
+          alt="next"
+        ></button>
+      </div>
+    </div>
+    <script src="script.js" async defer></script>
   </body>
 </html>
