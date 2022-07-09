@@ -41,11 +41,23 @@ nav ul li input {
   border-radius: 15px;
   height: 25px;
 }
-.slider img{
+
+.slider img {
   max-width: 100%;
+  position: relative;
 }
-.slider-button{
+
+.slider-button {
   height: 25px;
-  width: 75px;
-  
+  width: 25px;
+  top: 50%;
+  position: absolute;
+  z-index: 2;
+  transform: translateY(-50%);
+}
+.slider-button-prev {
+  left: 1rem;
+}
+.slider-button-next {
+  right: 1rem;
 }
