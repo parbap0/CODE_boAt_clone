@@ -1,0 +1,35 @@
+[33mcommit b38e8d4dbc695c755290b56ce1bb357912a5b119[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Parth <parbap0@gmail.com>
+Date:   Sat Jul 30 22:24:13 2022 +0530
+
+    updated slider component
+
+[33mcommit 38b2918306721a2a2315fc3a6fffeddf685d5280[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Parth <parbap0@gmail.com>
+Date:   Sat Jul 9 13:59:04 2022 +0530
+
+    slider buttons added
+
+[33mcommit 4cb6dddc56434a3d4d2202b4263ec3af5a72ad8c[m
+Author: Parth <parbap0@gmail.com>
+Date:   Sat Jul 9 01:32:43 2022 +0530
+
+    image slider
+
+[33mcommit 67f849b4261dbc715a773015a88d7732deab8e30[m
+Author: Parth <parbap0@gmail.com>
+Date:   Fri Jul 8 20:06:11 2022 +0530
+
+    updated media and navbar
+
+[33mcommit 3d79aadd8c43fcdb7cda16b5f4e900925372f6cf[m
+Author: Parth <parbap0@gmail.com>
+Date:   Fri Jul 8 14:22:03 2022 +0530
+
+    added media
+
+[33mcommit 17419e165bd12ae6bc1f0700e0ecd64a77239bf2[m
+Author: parbap0 <63765399+parbap0@users.noreply.github.com>
+Date:   Fri Jul 8 13:51:14 2022 +0530
+
+    Initial commit
