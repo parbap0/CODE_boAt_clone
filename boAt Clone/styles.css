@@ -41,6 +41,9 @@ nav ul li input {
   border-radius: 15px;
   height: 25px;
 }
+.slider {
+  padding: 20px;
+}
 
 .slider img {
   max-width: 100%;
@@ -60,4 +63,55 @@ nav ul li input {
 }
 .slider-button-next {
   right: 1rem;
+}
+.cards-list {
+  padding: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.best-sellers {
+  text-align: center;
+}
+.card {
+  background: rgb(224, 215, 215);
+  display: flex;
+  flex-direction: column;
+  height: 415px;
+  width: 280px;
+  align-items: center;
+  border-radius: 16px;
+
+  /* border: green solid; */
+  /* overflow-x: scroll */
+  /* padding: 1rem; */
+}
+.card img {
+  width: 300px;
+  height: 245px;
+}
+.product-info {
+  height: 170px;
+  width: 250px;
+  padding: 10px;
+  margin-bottom: 15px;
+  background: white;
+  border-radius: 16px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+.card header {
+  text-align: left;
+}
+.reviews {
+  text-align: left;
+  padding: 10px 10px 10px 0px;
+}
+.price-current {
+  text-align: left;
+  color: red;
+}
+.price-original {
+  color: rgb(97, 81, 81);
 }
