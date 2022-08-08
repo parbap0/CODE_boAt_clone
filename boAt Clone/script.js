@@ -1,6 +1,7 @@
 const sliderImage = document.querySelector(".slider-image");
 const sliderButtonNext = document.querySelector(".slider-button-next");
 const sliderButtonPrev = document.querySelector(".slider-button-prev");
+// const flashSale = document.querySelector(".flash-sale");
 
 let temp = 1;
 console.log(temp);
