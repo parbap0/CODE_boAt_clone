@@ -4,10 +4,18 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   box-sizing: border-box;
 }
+.shop {
+  text-decoration: none;
+  color: inherit;
+}
 body {
   background: black;
   color: white;
   margin: 0;
+  overflow-x: hidden;
+}
+.hidden {
+  display: none;
 }
 .notification {
   background: red;
@@ -20,7 +28,7 @@ body {
   height: 40px;
 }
 .logo-container {
-  width: 355px;
+  width: 23vw;
 }
 nav {
   display: flex;
@@ -47,7 +55,7 @@ nav ul li input {
 }
 
 .slider img {
-  max-width: 100%;
+  width: 100vw;
   position: relative;
 }
 
@@ -65,6 +73,44 @@ nav ul li input {
 .slider-button-next {
   right: 1rem;
 }
+.cards-container {
+  display: flex;
+  justify-content: space-around;
+}
+.card {
+  border-radius: 0.8em;
+  margin: 1em;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  background: #eae4e4;
+  width: 20vw;
+}
+.product-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+.product-image {
+}
+
+.product-info {
+  border-radius: 0.8em;
+
+  background: white;
+  margin: 0em 0.5em 0.5em 0.5em;
+  padding: 0.7em;
+}
+.add-to-cart-btn button {
+  border-radius: 0.5em;
+
+  border: none;
+  background: red;
+  color: white;
+  margin: 0.7em 0.7em 0em 0.7em;
+  padding: 0.5em;
+  width: 90%;
+  cursor: pointer;
+}
 /* .cards-list {
   /* max-width: 100%; */
 /* padding: 70px; */
@@ -73,69 +119,67 @@ nav ul li input {
   justify-content: space-evenly;
 } */
 .best-sellers {
-  margin: 20px;
-  text-align: center;
+  /* margin: 20px;
+  text-align: center; */
 }
 .cards-list {
-  margin: 15px 0px 60px 0px;
+  /* margin: 15px 0px 60px 0px;
   display: flex;
-  overflow-x: scroll;
-  
+  overflow-x: scroll; */
 }
-.cards-list::-webkit-scrollbar{
-  display: none;
+.cards-list::-webkit-scrollbar {
+  /* display: none; */
 }
 .card {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   min-width: 300px;
   height: 415px;
   background: rgb(204, 195, 195);
   color: black;
   border-radius: 10px;
-  margin: 10px;
+  margin: 10px; */
 }
 .card img {
-  width: 100%;
-  height: 250px;
+  /* width: 100%;
+  height: 250px; */
 }
 .product-info-holder {
   /* width: 100%; */
-  height: 100%;
+  /* height: 100%;
   padding: 5px 12px 10px 12px;
   margin: 0px 6px 6px 6px;
   background: white;
-  border-radius: 10px;
-
+  border-radius: 10px; */
 }
-.product-info-holder button{
-  width: 100%;
+.product-info-holder button {
+  /* width: 100%;
   height: 50px;
   background: red;
   color: white;
-  cursor:pointer;
+  cursor: pointer;
   border-radius: 10px;
-  margin: 20px 0px 0px ;
-
+  margin: 20px 0px 0px;
+  border: none; */
 }
 .card header {
-  text-align: left;
+  /* text-align: left; */
 }
 .reviews {
-  text-align: left;
-  margin: 5px 0px 0px;
-  
+  /* text-align: left; */
+  /* margin: 5px 0px 0px; */
+
   /* padding: 10px 10px 10px 0px; */
 }
 .price-current {
-  margin: 5px 0px 0px ;
+  /* margin: 5px 0px 0px; */
 
-  text-align: left;
-  color: red;
+  /* text-align: left; */
+  /* color: red; */
 }
 
 .price-original {
-  color: rgb(97, 81, 81);
+  /* color: rgb(97, 81, 81); */
 }
 /* .card {
   background: rgb(224, 215, 215);
@@ -196,7 +240,7 @@ nav ul li input {
   display: none;
 }
 .video-card-element {
-  border: solid red;
+  /* border: solid red; */
   border-radius: 15px;
   display: flex;
   flex-direction: column;
