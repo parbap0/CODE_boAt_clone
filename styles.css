@@ -73,10 +73,18 @@ nav ul li input {
 .slider-button-next {
   right: 1rem;
 }
+.shop-or-slide {
+  margin-bottom: 1em;
+}
+.best-sellers h1 {
+  text-align: center;
+}
 .cards-container {
+  margin: 1em 0em 1em 0em;
   display: flex;
   justify-content: space-around;
 }
+
 .card {
   border-radius: 0.8em;
   margin: 1em;
@@ -110,6 +118,41 @@ nav ul li input {
   padding: 0.5em;
   width: 90%;
   cursor: pointer;
+}
+.video-cards-container {
+  display: flex;
+  margin: 1em 0em 1em 0em;
+}
+.video-card {
+  display: flex;
+  flex-direction: column;
+  width: 15vw;
+  margin: 1em;
+  background: white;
+  color: black;
+  border-radius: 0.3em;
+}
+.video-card video {
+  width: 100%;
+  border-top-left-radius: 0.3em;
+  border-top-right-radius: 0.3em;
+
+  overflow: hidden;
+}
+.video-product-info {
+  margin: 1.7em 0.5em 0.5em 0.3em;
+  padding: 0.7em;
+}
+.icon-image {
+  align-self: center;
+  margin-top: -10%;
+  margin-bottom: -10%;
+  z-index: 1;
+  border-radius: 10px;
+  background: white;
+  width: 45px;
+  height: 45px;
+  /* box-shadow: */
 }
 /* .cards-list {
   /* max-width: 100%; */
@@ -249,25 +292,14 @@ nav ul li input {
   margin: 10px;
 }
 .video-element {
-  width: 100%;
-  height: auto;
+  /* width: 100%;
+  height: auto; */
 }
-.video-info-holder {
-  padding: 30px;
+/* .video-info-holder { */
+/* padding: 30px;
   text-align: center;
   background: white;
   color: black;
   width: 240px;
   height: 132px;
-}
-.icon-image {
-  align-self: center;
-  margin-top: -10%;
-  margin-bottom: -10%;
-  z-index: 1;
-  border-radius: 10px;
-  background: white;
-  width: 45px;
-  height: 45px;
-  /* box-shadow: */
-}
+} */
