@@ -4,6 +4,9 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   box-sizing: border-box;
 }
+html{
+  overflow-x: hidden;
+}
 .shop {
   text-decoration: none;
   color: inherit;
