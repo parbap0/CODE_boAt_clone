@@ -39,7 +39,7 @@ header {
 }
 nav {
   display: flex;
-
+  width: 100vw;
   justify-content: space-between;
   padding: 20px 60px 20px 60px;
 }
