@@ -9,7 +9,7 @@ const sliderBigButtonPrev = document.querySelector(".slider-big-prev");
 const sliderBigButtonNext = document.querySelector(".slider-big-next");
 // const flashSale = document.querySelector(".flash-sale");
 // console.log(cardImage[0]);
-
+const upperFooterTitles = document.querySelectorAll(".upper-footer-title");
 let temp = 1;
 // console.log(temp);
 // console.log(cardImages);
@@ -52,5 +52,10 @@ for (const cardImage of cardImages) {
     // console.log(cardImage.src);
   });
 }
+console.log(upperFooterTitles);
 
-
+for (const upperFooterTitle of upperFooterTitles) {
+  upperFooterTitle.addEventListener("click", function () {
+   
+  });
+}
