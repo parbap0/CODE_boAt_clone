@@ -45,6 +45,9 @@ header > div {
 .logo-container {
   width: 23vw;
 }
+.nav-wrapper {
+  width: 100vw;
+}
 nav {
   display: flex;
   width: 100vw;
@@ -424,5 +427,8 @@ nav ul li input {
   .upper-footer-3 > ul,
   .upper-footer-4 > ul {
     /* display:none; */
+  }
+  .slider-image {
+    /* height: 40vw; */
   }
 }
