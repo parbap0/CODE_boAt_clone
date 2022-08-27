@@ -37,6 +37,7 @@ sliderButtonPrev.addEventListener("click", function () {
 });
 
 for (const cardImage of cardImages) {
+  let originalImageSrc = cardImage.src;
   cardImage.addEventListener("mouseover", function () {
     // console.log(cardImage.src);
     // console.log(cardImage.src.indexOf(".png"));
@@ -46,16 +47,13 @@ for (const cardImage of cardImages) {
     // console.log(cardImage.src);
   });
   cardImage.addEventListener("mouseout", function () {
-    let index = cardImage.src.indexOf(".png");
-    cardImage.src =
-      cardImage.src.slice(0, index - 1) + cardImage.src.slice(index);
+    cardImage.src = originalImageSrc;
+
     // console.log(cardImage.src);
   });
 }
 console.log(upperFooterTitles);
 
 for (const upperFooterTitle of upperFooterTitles) {
-  upperFooterTitle.addEventListener("click", function () {
-   
-  });
+  upperFooterTitle.addEventListener("click", function () {});
 }
