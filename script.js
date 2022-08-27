@@ -4,6 +4,9 @@ const sliderButtonPrev = document.querySelector(".slider-button-prev");
 const sliderOrShop = document.getElementById("myDiv");
 const shop = document.querySelector(".shop");
 const cardImages = document.querySelectorAll(".product-image");
+const bigSlider = document.querySelector(".cards-big-wrapper");
+const sliderBigButtonPrev = document.querySelector(".slider-big-prev");
+const sliderBigButtonNext = document.querySelector(".slider-big-next");
 // const flashSale = document.querySelector(".flash-sale");
 // console.log(cardImage[0]);
 
@@ -49,3 +52,5 @@ for (const cardImage of cardImages) {
     // console.log(cardImage.src);
   });
 }
+
+
