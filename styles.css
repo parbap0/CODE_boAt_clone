@@ -26,6 +26,10 @@ body {
 }
 header {
   width: 100vw;
+  position: relative;
+}
+header > div {
+  /* position: absolute; */
 }
 .notification {
   width: 100vw;
@@ -46,6 +50,9 @@ nav {
   width: 100vw;
   justify-content: space-between;
   padding: 20px 60px 20px 60px;
+}
+nav > div {
+  /* max-width: 100%; */
 }
 
 nav ul {
@@ -405,10 +412,13 @@ nav ul li input {
   .footer-upper {
     flex-direction: column;
   }
+  .footer-upper {
+    align-content: center;
+  }
   .upper-footer-2,
   .upper-footer-3,
   .upper-footer-4 {
-    text-align: center;
+    /* text-align: center; */
   }
   .upper-footer-2 > ul,
   .upper-footer-3 > ul,
