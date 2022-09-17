@@ -7,6 +7,8 @@ const cardImages = document.querySelectorAll(".product-image");
 const bigSlider = document.querySelector(".cards-big-wrapper");
 const sliderBigButtonPrev = document.querySelector(".slider-big-prev");
 const sliderBigButtonNext = document.querySelector(".slider-big-next");
+const bestSellers = document.querySelector(".best-sellers");
+const bestSellersBtn = document.querySelector("#best-sellers-btn");
 // const flashSale = document.querySelector(".flash-sale");
 // console.log(cardImage[0]);
 const upperFooterTitles = document.querySelectorAll(".upper-footer-title");
@@ -57,3 +59,9 @@ console.log(upperFooterTitles);
 for (const upperFooterTitle of upperFooterTitles) {
   upperFooterTitle.addEventListener("click", function () {});
 }
+
+//smooth scrolling
+bestSellersBtn.addEventListener("click", function (e) {
+  e.preventDefault();
+  bestSellers.scrollIntoView({ behavior: "smooth" });
+});
