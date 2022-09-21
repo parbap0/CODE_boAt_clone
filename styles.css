@@ -1,11 +1,11 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   box-sizing: border-box;
 }
 html {
   /* overflow-x: hidden; */
+  /* -webkit-scrollbar:hidden */
 }
 .shop {
   text-decoration: none;
@@ -17,6 +17,8 @@ body {
   color: white;
   margin: 0;
   overflow-x: hidden;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 a {
   text-decoration: none;
@@ -129,19 +131,21 @@ nav ul li input {
   display: flex;
   flex-direction: column;
   background: #eae4e4;
+
   /* min-width: 50vw; */
-  width: 20vw;
+  /* width: 15vw; */
 }
 .product-image {
   max-width: 100%;
   max-height: 100%;
 }
-.product-image {
-}
+.product-image-container{
+  width: 15rem;
+align-self: center;}
 
 .product-info {
   border-radius: 0.8em;
-
+  box-shadow: 0 0 2px 0 #918c8c;
   background: white;
   margin: 0em 0.5em 0.5em 0.5em;
   padding: 0.7em;
@@ -214,6 +218,18 @@ nav ul li input {
   width: 3rem;
   height: 3rem;
   box-shadow: 0 0 2px 0 #918c8c;}
+
+.product-price{
+display: flex;
+  }
+
+.original-price{
+  margin-left: 0.7rem;
+  color: #8d8989;
+}
+.discounted-price{
+  color: red;
+}
 /* .cards-list {
   /* max-width: 100%; */
 /* padding: 70px; */
@@ -363,6 +379,10 @@ nav ul li input {
   width: 240px;
   height: 132px;
 } */
+.best-sellers, .video-slider{
+  /* font-family: Montserrat; */
+}
+
 .footer-upper {
   display: flex;
   justify-content: space-between;
