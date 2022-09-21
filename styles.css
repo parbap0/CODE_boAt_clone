@@ -211,10 +211,9 @@ nav ul li input {
   z-index: 1;
   border-radius: 10px;
   background: white;
-  width: 45px;
-  height: 45px;
-  /* box-shadow: */
-}
+  width: 3rem;
+  height: 3rem;
+  box-shadow: 0 0 2px 0 #918c8c;}
 /* .cards-list {
   /* max-width: 100%; */
 /* padding: 70px; */
