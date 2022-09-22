@@ -16,7 +16,7 @@ let temp = 1;
 // console.log(temp);
 // console.log(cardImages);
 
-sliderButtonNext.addEventListener("click", function () {
+const nextSlide = function () {
   if (temp <= 3) {
     sliderImage.src = `media/slider_${temp + 1}.png`;
     temp++;
@@ -25,8 +25,8 @@ sliderButtonNext.addEventListener("click", function () {
     sliderImage.src = `media/slider_${temp + 1}.png`;
     temp++;
   }
-});
-const nextSlide = function(){
+};
+const prevSlide = function () {
   if (temp > 1) {
     sliderImage.src = `media/slider_${temp - 1}.png`;
     temp--;
@@ -35,18 +35,10 @@ const nextSlide = function(){
     sliderImage.src = `media/slider_${temp - 1}.png`;
     temp--;
   }
-}
-sliderButtonPrev.addEventListener("click", nextSlide);
-setInterval(function () {
-  if (temp > 1) {
-    sliderImage.src = `media/slider_${temp - 1}.png`;
-    temp--;
-  } else if ((temp = 1)) {
-    temp = 5;
-    sliderImage.src = `media/slider_${temp - 1}.png`;
-    temp--;
-  }
-}, 3000)
+};
+sliderButtonNext.addEventListener("click", nextSlide);
+sliderButtonPrev.addEventListener("click", prevSlide);
+setInterval(nextSlide, 3000);
 for (const cardImage of cardImages) {
   let originalImageSrc = cardImage.src;
   cardImage.addEventListener("mouseover", function () {
